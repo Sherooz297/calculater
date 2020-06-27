@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #57a197;">
+    
+    <div class="main">
+   <div class="result"> <input type="text" id="result"> </div>
+   <div>
+       <button class="clerabtn" onclick="clearResult()">C</button>
+   </div>
+   <div>
+    <button class="btn" onclick="getNumber('7')">7</button>
+    <button class="btn" onclick="getNumber('8')">8</button>
+    <button class="btn" onclick="getNumber('9')">9</button>
+    <button class="btn" style="background-color: #b4d1d1;!important" onclick="getNumber('*')">X</button>
+</div>
+<div>
+    <button class="btn" onclick="getNumber('4')">4</button>
+    <button class="btn" onclick="getNumber('5')">5</button>
+    <button class="btn" onclick="getNumber('6')">6</button>
+    <button class="btn" style="background-color: #b4d1d1;!important" onclick="getNumber('-')">-</button>
+</div>
+<div>
+    <button class="btn" onclick="getNumber('1')">1</button>
+    <button class="btn" onclick="getNumber('2')">2</button>
+    <button class="btn" onclick="getNumber('3')">3</button>
+    <button class="btn" style="background-color: #b4d1d1;!important" onclick="getNumber('+')">+</button>
+</div>
+<div>
+    <button class="lowbtn" style="background-color: #5ba99c;!important" onclick="getNumber('0')">0</button>
+    <button class="lowbtn" style="background-color: #5ba99c;!important" onclick="getResult()">=</button>
+    <button class="lowbtn" style="background-color: #5ba99c;!important" onclick="getNumber('.')">.</button>
+    <button class="lowbtn" style="background-color: #5ba99c;!important" onclick="getNumber('/')">/</button>
+   
+</div>
+
+</div>
+
+    
+</body>
+<script src="app.js"></script>
+</html>

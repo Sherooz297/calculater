@@ -1,0 +1,46 @@
+.main{
+    
+    background-color: white;
+    width: 340px;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    
+    
+}
+.main button:hover{
+    background-color:#98aba1;
+    color: white;
+}
+.result input{
+    width: 95%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #dadae0;
+    font-size: 40px;
+}
+.clerabtn{
+    width: 95%;
+    margin-top: 5px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #c7cbd0;
+}
+.btn{
+    width: 70px;
+    height: 50px;
+    margin: 1px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #e1dee6;
+    
+}
+.lowbtn{
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+}
+
